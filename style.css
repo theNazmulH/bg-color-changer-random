@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    /*background: #000;*/
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper div{
+    text-align: center;
+}
+.wrapper h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+button{
+    border: 0px;
+    font-size: 16px;
+    background: #38bc2e;
+    color: #fff;
+    padding: 0 20px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
